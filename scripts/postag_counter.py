@@ -8,13 +8,16 @@ def count_postag(postag_dict, text_file):
 	ttr = 0
 	with open(text_file) as f:
 		for line in f:
+			#print(line) # TESTING PURPOSE
 			text_size += 1
+			if len(line.strip().split('_')) > 2:
+				continue
 			w, p = line.strip().split('_')
 			word.append(w)
 			postags = p.split()
 			for postag in postags:
 				postag = postag.strip('[]') # clean bracks from postag
-				if postag_dict.has_key(postag):
+				if postag in postag_dict:
 					postag_dict[postag] += 1
 			if text_size == 400:
 				ttr = len(set(word)) / text_size
@@ -43,9 +46,9 @@ def main(corpus_folder_dir, feature_file):
 		#write header
 		header = postag_dict.keys()
 		header = "file_names, " + ','.join(header) + ', TTR\n'
-		with open(counts_file, "a") as out:
+		with open(counts_file, "w") as out:
 			out.write(header)
-		with open(normalized_counts_file, "a") as out:
+		with open(normalized_counts_file, "w") as out:
 			out.write(header)
 
 		for f in files:
