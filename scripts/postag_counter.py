@@ -8,9 +8,9 @@ def count_postag(postag_dict, text_file):
 	ttr = 0
 	with open(text_file) as f:
 		for line in f:
-			#print(line) # TESTING PURPOSE
+			print(line) # TESTING PURPOSE
 			text_size += 1
-			if len(line.strip().split('_')) > 2:
+			if len(line.strip().split('_')) != 2:
 				continue
 			w, p = line.strip().split('_')
 			word.append(w)
