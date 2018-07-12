@@ -81,7 +81,8 @@ def main(corpus_folder_dir, feature_file):
 			result = f + ', ' + \
 			str(result).strip('[]') + ', ' + str(ttr) + ', ' + str(AWL) + '\n'
 			normalized_result = f + ', ' + \
-			str(normalized_result).strip('[]') + ', ' + str(ttr) + '\n'
+			str(normalized_result).strip('[]') \
+			+ ', ' + str(ttr) + ', ' + str(AWL) + '\n'
 			with open(counts_file, "a") as out:
 				out.write(result)
 			with open(normalized_counts_file, "a") as out:
