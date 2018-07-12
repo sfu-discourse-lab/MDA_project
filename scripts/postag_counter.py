@@ -70,7 +70,7 @@ def main(corpus_folder_dir, feature_file):
 		header_counts = "file_names, " + ','.join(header) + ', TTR, AWL\n'
 		with open(counts_file, "w") as out:
 			out.write(header_counts)
-		header_norm = "file_names, " + ','.join(header) + ', TTR\n'
+		header_norm = "file_names, " + ','.join(header) + ', TTR, AWL\n'
 		with open(normalized_counts_file, "w") as out:
 			out.write(header_norm)
 
