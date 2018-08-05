@@ -1,0 +1,32 @@
+register,macroregister,corpus,mode,type,texts,words
+academic writing,academic,ICE,written,traditional,40,96518
+creative writing (fiction),fiction,ICE,written,traditional,20,42582
+business letters,letters,ICE,written,traditional,15,30785
+social letters,letters,ICE,written,traditional,15,31469
+instructional writing,instructional,ICE,written,traditional,20,43548
+non academic writing,non_academic,ICE,written,traditional,40,86896
+persuasive writing (press editorials),persuasive,ICE,written,traditional,10,20766
+reportage,reportage,ICE,written,traditional,20,42041
+student essays,essays,ICE,written,traditional,10,21413
+exams,exams,ICE,written,traditional,10,21200
+broadcast discussion,broadcast,ICE,spoken,traditional,20,42918
+broadcast interview,broadcast,ICE,spoken,traditional,10,21101
+business transactions,business,ICE,spoken,traditional,10,21689
+class lessons,lessons,ICE,spoken,traditional,20,42576
+conversation,conversation,ICE,spoken,traditional,90,187993
+legal courtroom debate,debate,ICE,spoken,traditional,10,22156
+parliamentary debate,debate,ICE,spoken,traditional,10,20703
+telephone,telephone,ICE,spoken,traditional,10,22190
+spontaneous commentaries,commentaries,ICE,spoken,traditional,20,41224
+demonstrations,demonstrations,ICE,spoken,traditional,10,22252
+legal presentations,legal presentation,ICE,spoken,traditional,10,21439
+scripted broadcast news,scripted,ICE,spoken,traditional,20,42061
+scripted broadcast talks,scripted,ICE,spoken,traditional,20,42414
+scripted non broadcast,scripted,ICE,spoken,traditional,10,21000
+unscripted speech,speech,ICE,spoken,traditional,30,66918
+comments,comments,SOCC,written,web,80,773062
+opinion articles,opinion articles,SOCC,written,web,80,78239
+,,,,,,
+TOTAL,,,,,660,1927153
+,,,,,,
+news articles,news,SOCC,written,web,80,94289

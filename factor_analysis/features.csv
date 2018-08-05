@@ -1,0 +1,68 @@
+feature,tag,nicelabels,feature_collapsed
+amplifiers,AMP,Amplifiers,amplifiers
+non-phrasal coordination (independent clause coordination),ANDC,Non-phrasal coordination,non-phrasal coordination
+average word length,AWL,Average word length,average word length
+be as main verb,BEMA,BE main verb,BE as main verb
+by passives,BYPA,BY passive,passives
+adv subordinator cause,CAUS,Subordinator cause,adv subordinator
+adv subordinator concession,CONC,Subordinator concession,adv subordinator
+adv subordinator condition,COND,Subordinator condition,adv subordinator
+conjuncts,CONJ,Conjuncts,conjuncts
+contractions,CONT,Contractions,contractions
+demonstratives,DEMO,Demonstratives,demonstratives
+demonstrative pronouns,DEMP,Demonstrative pronoun,demonstrative pronouns
+discourse particles,DPAR,Discourse particles,discourse particles
+downtoners,DWNT,Downtoners,downtoners
+emphatics,EMPH,Emphatics,emphatics
+existential there,EX,Existential THERE,existential THERE
+first person pronouns,FPP1,1st ps. Pronouns,1st person pronouns
+gerunds,GER,Gerunds,gerunds
+hedges,HDG,Hedges,hedges
+indefinite pronouns,INPR,Indef. Pronouns,indefinite pronouns
+attributive adj,JJ,Adjectives attributive,attributive adjectives
+necessity modals,NEMD,Modals necessity,modals
+nouns,NN,Nouns,nouns
+nominalisations,NOMZ,Nominalisations,nominalisations
+adv subordinator other,OSUB,Subordinator other,adv subordinator
+agentless passives,PASS,Agentless passives,passives
+past participal clauses,PASTP,Past participle clauses,past participal clauses
+perfect aspect verbs,PEAS,Perfect aspect,perfect aspect verbs
+phrasal coordination,PHC,Phrasal coordination,phrasal coordination
+prepositions,PIN,Prepositions,prepositions
+that relatives pie-pipes,PIRE,Pie-pipe relatives,that relatives pie-pipes
+pronoun it,PIT,Pronoun IT,pronoun IT
+place adverbials,PLACE,Place adverbials,place adverbials
+possibility modals,POMD,Modals possibility,modals
+predicative adj,PRED,Adjectives predicative,predicative adjectives
+present participal clauses,PRESP,Present participal clauses,present participal clauses
+private verbs,PRIV,Private verbs,private verbs
+predictive modals,PRMD,Modals predicitive,modals
+do as pro-verb,PROD,DO pro-verb,DO as pro-verb
+public verbs,PUBV,Public verbs,public verbs
+adverbs,RB,Adverbs,adverbs
+sentence relatives,SERE,Sentence relatives,sentence relatives
+seem appear,SMP,SEEM/APPEAR,seem/appear
+split auxiliaries,SPAU,Split auxiliaries,split auxiliaries
+split infinitives,SPIN,Split infinitives,split infinitives
+second person pronouns,SPP2,2nd ps. pronouns,2nd person pronouns
+stranded prepositions,STPR,stranded prepositions,stranded prepositions
+suasive verbs,SUAV,Suasive verbs,suasive verbs
+synthetic negation,SYNE,Synthetic negation,synthetic negation
+that adj complements,THAC,THAT adjective complements,THAT adjective complements
+that deletion,THATD,THAT deletion,THAT deletion
+that verb complements,THVC,THAT verb complements,THAT verb complements
+time adverbials,TIME,Time adverbials,time adverbials
+infinitives,TO,Infinitives,infinitives
+that relatives obj,TOBJ,THAT relatives obj.,that relative clauses
+third person pronouns,TPP3,3rd ps. Pronouns,3rd person pronouns
+that relatives subj,TSUB,THAT relatives subj.,that relative clauses
+TTR,TTR,Type-token ratio,type-token ratio
+past tense,VBD,past tense,past tense
+present tense,VPRT,present tense,present tense
+wh clauses,WHCL,WH clauses,WH clauses
+wh relative clauses object,WHOBJ,WH relatives obj.,WH relative clauses
+wh questions,WHQU,WH questions,WH questions
+wh relative clauses subject,WHSUB,WH relatives subj.,WH relative clauses
+past prt whiz deletions,WZPAST,Past participle WHIZ deletion,past participle WHIZ deletion
+present prt whiz deletions,WZPRES,Present participal WHIZ deletion,present participle WHIZ deletion
+analytic negation,XX0,Analytic negation,analytic negation
