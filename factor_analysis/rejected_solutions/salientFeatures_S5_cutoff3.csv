@@ -1,0 +1,41 @@
+Factor 1,tag,Factor 2,tag,Factor 3,tag,Factor4,tag
+0.419,ANDC,-0.322,ANDC,0.761,BEMA,0.349,CONJ
+-0.885,AWL,0.497,COND,0.326,EMPH,0.543,NOMZ
+0.419,BEMA,0.349,NEMD,0.825,PRED,0.427,PASS
+-0.451,BYPA,0.441,POMD,-0.339,PUBV,0.343,PIRE
+0.322,CAUS,0.521,PRMD,0.358,RB,-0.501,PLACE
+0.411,COND,0.504,PUBV,"BEMA construct, reduced",,-0.42,TIME
+-0.442,CONJ,0.613,SUAV,surface forms,,0.351,WZPAST
+0.919,CONT,0.38,THVC,,,situation depedent vs. Formal Informational,
+0.324,DEMO,0.586,TO,,,overlap with Biber 5 and 3,
+0.759,DEMP,0.408,TOBJ,,,,
+0.737,DPAR,Persuasive elaboration,,,,,
+-0.424,DWNT,,,,,,
+0.507,EMPH,,,,,,
+0.426,EX,,,,,,
+0.67,FPP1,,,,,,
+-0.306,GER,,,Factor 5,tag,,
+0.746,HDG,,,0.347,TPP3,,
+-0.871,JJ,,,0.956,VBD,,
+-0.758,NN,,,-0.473,VPRT,,
+-0.557,NOMZ,,,narrative vs non-narrative,,,
+-0.391,PASS,,,but fiction no longer weighs high,,,
+-0.599,PEAS,,,,,,
+-0.721,PHC,,,,,,
+-0.838,PIN,,,,,,
+0.671,PIT,,,,,,
+0.783,PRIV,,,,,,
+0.647,PROD,,,,,,
+0.426,RB,,,,,,
+-0.387,SPAU,,,,,,
+0.779,SPP2,,,,,,
+0.654,STPR,,,,,,
+0.718,THATD,,,,,,
+-0.381,TSUB,,,,,,
+-0.879,TTR,,,,,,
+0.679,VPRT,,,,,,
+0.599,WHCL,,,,,,
+0.391,WHQU,,,,,,
+-0.311,WHSUB,,,,,,
+-0.455,WZPAST,,,,,,
+0.623,XX0,,,,,,
