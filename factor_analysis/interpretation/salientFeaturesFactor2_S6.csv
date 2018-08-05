@@ -1,0 +1,8 @@
+tag,factor,nice features
+BEMA,0.621,BE as main verb
+EMPH,0.311,emphatics
+PASTP,-0.309,past participle clauses
+PRED,0.76,predicative adjectives
+RB,0.342,adverbs
+SPAU,0.319,split auxiliaries
+STPR,-0.377,stranded prepositions
