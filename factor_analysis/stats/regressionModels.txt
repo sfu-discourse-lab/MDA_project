@@ -1,0 +1,256 @@
+Call:
+lm(formula = Factor1 ~ mesoregister, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.39950 -0.26090 -0.00141  0.25327  1.80308 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        -1.00135    0.06761 -14.810  < 2e-16 ***
+mesoregisterbroadcast               1.70178    0.10328  16.477  < 2e-16 ***
+mesoregisterbusiness letters        0.37424    0.12947   2.891 0.003978 ** 
+mesoregisterbusiness transactions   2.19939    0.15119  14.547  < 2e-16 ***
+mesoregistercommentaries            0.74113    0.11711   6.328 4.68e-10 ***
+mesoregisterconversation            2.67561    0.08126  32.926  < 2e-16 ***
+mesoregistercross-examinations      1.81767    0.15119  12.022  < 2e-16 ***
+mesoregisterdemonstrations          1.62439    0.15119  10.744  < 2e-16 ***
+mesoregisterexams                   0.34337    0.15119   2.271 0.023474 *  
+mesoregisterfiction                 0.67665    0.11711   5.778 1.19e-08 ***
+mesoregisterinstructional           0.44835    0.11711   3.828 0.000142 ***
+mesoregisterlegal presentation      1.16613    0.15119   7.713 4.77e-14 ***
+mesoregisterlesson                  2.29341    0.11711  19.583  < 2e-16 ***
+mesoregisternon-academic            0.18106    0.09562   1.894 0.058743 .  
+mesoregisteronline comments         0.60142    0.08281   7.263 1.12e-12 ***
+mesoregisteropinion                 0.19434    0.08281   2.347 0.019241 *  
+mesoregisterparliamentary debate    0.39897    0.15119   2.639 0.008522 ** 
+mesoregisterpersuasive              0.18952    0.15119   1.254 0.210471    
+mesoregisterreportage               0.46865    0.11711   4.002 7.03e-05 ***
+mesoregisterscripted broadcast      0.52092    0.09562   5.448 7.30e-08 ***
+mesoregisterscripted non-broadcast  0.05143    0.15119   0.340 0.733851    
+mesoregistersocial letters          0.98506    0.12947   7.608 1.01e-13 ***
+mesoregisterstudent essays          0.06751    0.15119   0.447 0.655373    
+mesoregistertelephone               2.65121    0.15119  17.536  < 2e-16 ***
+mesoregisterunscripted speech       1.97473    0.10328  19.120  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4276 on 635 degrees of freedom
+Multiple R-squared:  0.8322,    Adjusted R-squared:  0.8258 
+F-statistic: 131.2 on 24 and 635 DF,  p-value: < 2.2e-16
+
+summary(modelF2)
+
+Call:
+lm(formula = Factor2 ~ mesoregister, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.32317 -0.45684 -0.04212  0.41073  2.75992 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                         0.06182    0.12190   0.507 0.612224    
+mesoregisterbroadcast              -0.38816    0.18621  -2.085 0.037511 *  
+mesoregisterbusiness letters        0.06391    0.23343   0.274 0.784326    
+mesoregisterbusiness transactions  -0.31435    0.27259  -1.153 0.249254    
+mesoregistercommentaries           -1.47288    0.21114  -6.976 7.66e-12 ***
+mesoregisterconversation            0.25477    0.14651   1.739 0.082531 .  
+mesoregistercross-examinations     -0.78901    0.27259  -2.895 0.003927 ** 
+mesoregisterdemonstrations         -1.36450    0.27259  -5.006 7.22e-07 ***
+mesoregisterexams                   0.92310    0.27259   3.386 0.000752 ***
+mesoregisterfiction                -0.13634    0.21114  -0.646 0.518678    
+mesoregisterinstructional          -0.79353    0.21114  -3.758 0.000187 ***
+mesoregisterlegal presentation     -1.29593    0.27259  -4.754 2.47e-06 ***
+mesoregisterlesson                 -0.40404    0.21114  -1.914 0.056123 .  
+mesoregisternon-academic           -0.41656    0.17240  -2.416 0.015962 *  
+mesoregisteronline comments         1.17236    0.14930   7.852 1.74e-14 ***
+mesoregisteropinion                 0.41144    0.14930   2.756 0.006023 ** 
+mesoregisterparliamentary debate   -0.95899    0.27259  -3.518 0.000466 ***
+mesoregisterpersuasive              0.04578    0.27259   0.168 0.866672    
+mesoregisterreportage              -0.95868    0.21114  -4.540 6.72e-06 ***
+mesoregisterscripted broadcast     -1.18161    0.17240  -6.854 1.70e-11 ***
+mesoregisterscripted non-broadcast -0.54503    0.27259  -1.999 0.045981 *  
+mesoregistersocial letters          0.58357    0.23343   2.500 0.012671 *  
+mesoregisterstudent essays          0.28630    0.27259   1.050 0.293971    
+mesoregistertelephone               0.29579    0.27259   1.085 0.278271    
+mesoregisterunscripted speech      -0.40336    0.18621  -2.166 0.030674 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.771 on 635 degrees of freedom
+Multiple R-squared:  0.4791,    Adjusted R-squared:  0.4594 
+F-statistic: 24.34 on 24 and 635 DF,  p-value: < 2.2e-16
+
+summary(modelF3)
+
+Call:
+lm(formula = Factor3 ~ mesoregister, data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.42926 -0.52942 -0.02851  0.50413  2.60667 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                         -1.0281     0.1330  -7.733 4.14e-14 ***
+mesoregisterbroadcast                0.9050     0.2031   4.456 9.86e-06 ***
+mesoregisterbusiness letters         1.1236     0.2546   4.413 1.20e-05 ***
+mesoregisterbusiness transactions    1.0034     0.2973   3.375 0.000783 ***
+mesoregistercommentaries             0.2533     0.2303   1.100 0.271741    
+mesoregisterconversation             0.8268     0.1598   5.175 3.07e-07 ***
+mesoregistercross-examinations       1.2199     0.2973   4.103 4.61e-05 ***
+mesoregisterdemonstrations           1.0256     0.2973   3.450 0.000598 ***
+mesoregisterexams                    0.0661     0.2973   0.222 0.824113    
+mesoregisterfiction                  1.4155     0.2303   6.147 1.40e-09 ***
+mesoregisterinstructional            1.2070     0.2303   5.242 2.17e-07 ***
+mesoregisterlegal presentation       2.9524     0.2973   9.931  < 2e-16 ***
+mesoregisterlesson                   0.4001     0.2303   1.737 0.082799 .  
+mesoregisternon-academic             1.1517     0.1880   6.125 1.59e-09 ***
+mesoregisteronline comments          1.2352     0.1628   7.586 1.18e-13 ***
+mesoregisteropinion                  1.0889     0.1628   6.687 5.00e-11 ***
+mesoregisterparliamentary debate     1.3965     0.2973   4.698 3.23e-06 ***
+mesoregisterpersuasive               1.2378     0.2973   4.164 3.57e-05 ***
+mesoregisterreportage                2.6586     0.2303  11.545  < 2e-16 ***
+mesoregisterscripted broadcast       1.5564     0.1880   8.278 7.42e-16 ***
+mesoregisterscripted non-broadcast   0.6229     0.2973   2.095 0.036562 *  
+mesoregistersocial letters           0.8085     0.2546   3.176 0.001566 ** 
+mesoregisterstudent essays           0.6265     0.2973   2.107 0.035475 *  
+mesoregistertelephone                0.8513     0.2973   2.863 0.004329 ** 
+mesoregisterunscripted speech        0.8348     0.2031   4.110 4.47e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8409 on 635 degrees of freedom
+Multiple R-squared:  0.3002,    Adjusted R-squared:  0.2737 
+F-statistic: 11.35 on 24 and 635 DF,  p-value: < 2.2e-16
+
+summary(modelF4)
+
+Call:
+lm(formula = Factor4 ~ mesoregister, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.9962 -0.4669 -0.0627  0.4542  3.5085 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        -0.18447    0.11730  -1.573 0.116313    
+mesoregisterbroadcast               0.78251    0.17918   4.367 1.47e-05 ***
+mesoregisterbusiness letters        0.67633    0.22462   3.011 0.002707 ** 
+mesoregisterbusiness transactions   0.66618    0.26229   2.540 0.011328 *  
+mesoregistercommentaries            0.93064    0.20317   4.581 5.58e-06 ***
+mesoregisterconversation           -0.35373    0.14098  -2.509 0.012352 *  
+mesoregistercross-examinations      1.63621    0.26229   6.238 8.09e-10 ***
+mesoregisterdemonstrations          1.23596    0.26229   4.712 3.01e-06 ***
+mesoregisterexams                   0.90862    0.26229   3.464 0.000568 ***
+mesoregisterfiction                -0.42306    0.20317  -2.082 0.037719 *  
+mesoregisterinstructional          -0.26378    0.20317  -1.298 0.194657    
+mesoregisterlegal presentation      2.19951    0.26229   8.386 3.26e-16 ***
+mesoregisterlesson                  0.46550    0.20317   2.291 0.022282 *  
+mesoregisternon-academic           -0.54280    0.16589  -3.272 0.001126 ** 
+mesoregisteronline comments         0.17557    0.14366   1.222 0.222118    
+mesoregisteropinion                 0.02592    0.14366   0.180 0.856889    
+mesoregisterparliamentary debate    2.34065    0.26229   8.924  < 2e-16 ***
+mesoregisterpersuasive              0.36826    0.26229   1.404 0.160808    
+mesoregisterreportage              -0.99151    0.20317  -4.880 1.34e-06 ***
+mesoregisterscripted broadcast      0.18025    0.16589   1.087 0.277644    
+mesoregisterscripted non-broadcast  1.18458    0.26229   4.516 7.51e-06 ***
+mesoregistersocial letters         -0.41557    0.22462  -1.850 0.064759 .  
+mesoregisterstudent essays          1.04540    0.26229   3.986 7.51e-05 ***
+mesoregistertelephone              -0.74849    0.26229  -2.854 0.004463 ** 
+mesoregisterunscripted speech       0.72849    0.17918   4.066 5.39e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7419 on 635 degrees of freedom
+Multiple R-squared:  0.4485,    Adjusted R-squared:  0.4277 
+F-statistic: 21.52 on 24 and 635 DF,  p-value: < 2.2e-16
+
+summary(modelF5)
+
+Call:
+lm(formula = Factor5 ~ mesoregister, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.2064 -0.4131 -0.0093  0.3863  3.1804 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                          1.4267     0.1124  12.692  < 2e-16 ***
+mesoregisterbroadcast               -1.6586     0.1717  -9.659  < 2e-16 ***
+mesoregisterbusiness letters        -0.8446     0.2153  -3.924 9.67e-05 ***
+mesoregisterbusiness transactions   -1.4250     0.2514  -5.669 2.18e-08 ***
+mesoregistercommentaries            -3.2165     0.1947 -16.520  < 2e-16 ***
+mesoregisterconversation            -1.1340     0.1351  -8.394 3.07e-16 ***
+mesoregistercross-examinations      -0.6632     0.2514  -2.638 0.008539 ** 
+mesoregisterdemonstrations          -1.9608     0.2514  -7.801 2.54e-14 ***
+mesoregisterexams                   -1.3617     0.2514  -5.417 8.60e-08 ***
+mesoregisterfiction                 -2.3547     0.1947 -12.094  < 2e-16 ***
+mesoregisterinstructional           -0.7272     0.1947  -3.735 0.000205 ***
+mesoregisterlegal presentation      -1.1697     0.2514  -4.653 3.98e-06 ***
+mesoregisterlesson                  -1.0856     0.1947  -5.575 3.65e-08 ***
+mesoregisternon-academic            -1.7900     0.1590 -11.260  < 2e-16 ***
+mesoregisteronline comments         -1.5838     0.1377 -11.504  < 2e-16 ***
+mesoregisteropinion                 -1.6215     0.1377 -11.777  < 2e-16 ***
+mesoregisterparliamentary debate    -0.9313     0.2514  -3.705 0.000230 ***
+mesoregisterpersuasive              -1.6942     0.2514  -6.740 3.56e-11 ***
+mesoregisterreportage               -1.3537     0.1947  -6.952 8.93e-12 ***
+mesoregisterscripted broadcast      -1.9245     0.1590 -12.106  < 2e-16 ***
+mesoregisterscripted non-broadcast  -1.5646     0.2514  -6.225 8.77e-10 ***
+mesoregistersocial letters          -2.3449     0.2153 -10.894  < 2e-16 ***
+mesoregisterstudent essays          -0.3488     0.2514  -1.388 0.165710    
+mesoregistertelephone               -1.3825     0.2514  -5.500 5.50e-08 ***
+mesoregisterunscripted speech       -1.2401     0.1717  -7.222 1.47e-12 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.711 on 635 degrees of freedom
+Multiple R-squared:  0.4355,    Adjusted R-squared:  0.4142 
+F-statistic: 20.41 on 24 and 635 DF,  p-value: < 2.2e-16
+
+ summary(modelF6)
+
+Call:
+lm(formula = Factor6 ~ mesoregister, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.9731 -0.5512 -0.0772  0.4530  3.4729 
+
+Coefficients:
+                                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        -0.12793    0.13927  -0.919 0.358699    
+mesoregisterbroadcast              -0.13577    0.21275  -0.638 0.523597    
+mesoregisterbusiness letters       -0.03226    0.26669  -0.121 0.903761    
+mesoregisterbusiness transactions  -0.21252    0.31143  -0.682 0.495235    
+mesoregistercommentaries           -0.37312    0.24123  -1.547 0.122430    
+mesoregisterconversation            0.37128    0.16739   2.218 0.026901 *  
+mesoregistercross-examinations      2.30068    0.31143   7.388 4.73e-13 ***
+mesoregisterdemonstrations         -1.13707    0.31143  -3.651 0.000283 ***
+mesoregisterexams                  -0.57859    0.31143  -1.858 0.063651 .  
+mesoregisterfiction                 1.73046    0.24123   7.173 2.04e-12 ***
+mesoregisterinstructional          -0.43888    0.24123  -1.819 0.069329 .  
+mesoregisterlegal presentation      1.82468    0.31143   5.859 7.48e-09 ***
+mesoregisterlesson                 -0.28176    0.24123  -1.168 0.243239    
+mesoregisternon-academic           -0.08434    0.19696  -0.428 0.668669    
+mesoregisteronline comments        -0.12507    0.17058  -0.733 0.463691    
+mesoregisteropinion                 0.19773    0.17058   1.159 0.246812    
+mesoregisterparliamentary debate   -0.24045    0.31143  -0.772 0.440348    
+mesoregisterpersuasive              0.14678    0.31143   0.471 0.637569    
+mesoregisterreportage               0.83521    0.24123   3.462 0.000572 ***
+mesoregisterscripted broadcast     -0.31613    0.19696  -1.605 0.108991    
+mesoregisterscripted non-broadcast  0.56659    0.31143   1.819 0.069330 .  
+mesoregistersocial letters          0.21599    0.26669   0.810 0.418307    
+mesoregisterstudent essays          1.29707    0.31143   4.165 3.55e-05 ***
+mesoregistertelephone               0.26051    0.31143   0.837 0.403184    
+mesoregisterunscripted speech      -0.30590    0.21275  -1.438 0.150971    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8809 on 635 degrees of freedom
+Multiple R-squared:  0.3095,    Adjusted R-squared:  0.2834 
+F-statistic: 11.86 on 24 and 635 DF,  p-value: < 2.2e-16
+
