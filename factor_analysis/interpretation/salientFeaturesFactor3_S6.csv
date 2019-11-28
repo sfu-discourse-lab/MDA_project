@@ -1,8 +1,0 @@
-tag,factor score,nice features
-ANDC,-0.36,non-phrasal coordination (independent clause coordination)
-COND,0.332,adv subordinator condition
-PRMD,0.429,predictive modals
-PUBV,0.738,public verbs
-SUAV,0.51,suasive verbs
-THATD,0.301,THAT deletion
-TO,0.378,TO infinitives
