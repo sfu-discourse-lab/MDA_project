@@ -1,6 +1,0 @@
-solution,Factor1,Factor2,Factor3,Factor4,Factor 5,Factor 6,Factor 7,Variance Explained,,judgement,reasons
-3 factor,41,20,3,NA,NA,NA,NA,33.4,,underfactoring concepts collapsed,
-4 factor,40,11,7,3,NA,NA,NA,36,,Good but could be underfactoring,"concepts might be collapsed as 5 factor solution shows sufficiently large loadings on additional factor, last factor 3 loadings"
-5 factor,40,10,5,7,3,NA,NA,38.5,,Good but could be underfactoring,
-6 factor,38,7,7,7,7,3,NA,40.7,,good but perhaps overfactoring,
-7 factor,37,6,7,7,5,3,2,42.5,,overfactoring ,"last two factors not enough salient loadings, interpretation cannot be sufficiently justified by model"
