@@ -1,8 +1,12 @@
 ## MDA_project
 
-This repository contains scripts for parts-of-speech tag (POS-tag) retrieval used in the context of several ongoing multi-dimensional analysis projects. 
+This repository contains scripts for data pre-processing and parts-of-speech tag (POS-tag) retrieval used in the context of several ongoing multi-dimensional analysis projects:
 
-### Description of the files
+* [Analysing online comments and traditional registers](https://github.com/sfu-discourse-lab/MDA-OnlineComments)
+
+* [Analysing online commments and other online registers](https://github.com/sfu-discourse-lab/MDA-OnlineRegisters)
+
+### Description of the files for POS-retrieval
 
 #### postag_counter.py
 
@@ -18,3 +22,24 @@ The script takes two arguments, the path to the input corpus (a directory) and t
 #### features_to_MATtags.csv
 
 A csv file listing each of the POS-tags together with a short description of the feature. This file is required by postag_counter.py
+
+### Description of the files for data pre-processing
+
+#### CORE_cleanup.py
+
+This script removes artifacts from the data collection process in the [Corpus of Online Registers of English](https://www.english-corpora.org/core/) (CORE).
+
+#### csv_combine.py
+
+Description coming soon.
+
+#### dataSelection.py
+
+This script samples all comment threads comprised in the [SFU Opinion and Comments Corpus](https://github.com/sfu-discourse-lab/SOCC) (SOCC) with a minimum length of 700 words.
+
+#### SOCC_cleanup.py
+
+This script removes artifacts from the data collection process in the [SFU Opinion and Comments Corpus](https://github.com/sfu-discourse-lab/SOCC) (SOCC).
+
+
+
