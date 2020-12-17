@@ -27,19 +27,37 @@ A csv file listing each of the POS-tags together with a short description of the
 
 #### CORE_cleanup.py
 
-This script removes artifacts from the data collection process in the [Corpus of Online Registers of English](https://www.english-corpora.org/core/) (CORE).
+This script removes artifacts from the data collection process in the [Corpus of Online Registers of English](https://www.english-corpora.org/core/) (CORE). The script removes all occurences of html tags within the data as well as strings of dashes, underscores and tildes that are longer than 4 tokens. The script also removes the initial lines of each CORE file since they contain metadata about where the data was collected.
+
+The script takes one argument, the path to the input corpus (a directory). The script can be called with 
+
+    python CORE_cleanup.py path/to/input/corpus/
 
 #### csv_combine.py
 
-Description coming soon.
+This script combines the individual postag_counts.csv files into one combined postag_counts.csv for all subcorpora of CORE. The same can be done for the normalized_postag_counts.csv files by replacing the name of the file on line 4 and line 12 with 'normalized_postag_counts'.
+
+Keep in mind that this script only works if the individual postag_counts.csv files were renamed by prepending the corresponding subcorpora identifier to the file name such as "06_ID__postag_counts.csv".
+
+The script takes one argument, the path to the directory containing the .csv files. The script can be called with
+
+    python csv_combine.py path/to/input/directory/
 
 #### dataSelection.py
 
-This script samples all comment threads comprised in the [SFU Opinion and Comments Corpus](https://github.com/sfu-discourse-lab/SOCC) (SOCC) with a minimum length of 700 words.
+This script samples all comment threads comprised in the [SFU Opinion and Comments Corpus](https://github.com/sfu-discourse-lab/SOCC) (SOCC) with a minimum length of 700 words. The script retrieves all comment threads with a minimum length of 700 words and stores them in a folder named 'threads' at a location specified by the user.
+
+The script takes two arguments, the path to the SOCC csv file and the path to the location where the 'threads' folder will be created. The script can be called with
+
+    python dataSelection.py /path/to/input/csv/ /path/to/storage/location/
 
 #### SOCC_cleanup.py
 
-This script removes artifacts from the data collection process in the [SFU Opinion and Comments Corpus](https://github.com/sfu-discourse-lab/SOCC) (SOCC).
+This script removes artifacts from the data collection process in the [SFU Opinion and Comments Corpus](https://github.com/sfu-discourse-lab/SOCC) (SOCC). The script removes all occurences of html tags within the data as well as strings of dashes, underscores and tildes that are longer than 4 tokens.
+
+The script takes one argument, the path to the input corpus (a directory). The script can be called with 
+
+    python SOCC_cleanup.py path/to/input/corpus/
 
 
 
