@@ -8,6 +8,14 @@ This repository contains scripts for data pre-processing and parts-of-speech tag
 
 * [Analysing podcasts vs. spoken registers and vs. computer-mediated communication](https://github.com/sfu-discourse-lab/MDA-podcasts)
 
+## Related publications
+
+* Ehret, K., L. Bosman, A. Babayode, N. Chan, I. Fong, N. Harris, A. Hewton, D. Reid, R. Wong and M. Taboada (to appear) Podcasts as an emerging register of computer-mediated communication. _Register Studies_.
+
+* Ehret, K. and M. Taboada (2021) [Characterising online news comments: A multi-dimensional cruise through online registers](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2021.643770/full). _Frontiers in Artificial Intelligence – Language and Computation_ 4(79): 10.3389/frai.2021.643770.
+
+* Ehret, K. and M. Taboada (2021) [The interplay of complexity and subjectivity in opinionated discourse](https://www.sfu.ca/~mtaboada/docs/publications/Ehret_Taboada_DiscourseStudies.pdf). _Discourse Studies_ 23(2): 141-165.
+
 ### Description of the files for POS-retrieval
 
 #### postag_counter.py
