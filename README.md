@@ -6,6 +6,8 @@ This repository contains scripts for data pre-processing and parts-of-speech tag
 
 * [Analysing online commments and other online registers](https://github.com/sfu-discourse-lab/MDA-OnlineRegisters)
 
+* [Analysing podcasts vs. spoken registers and vs. computer-mediated communication](https://github.com/sfu-discourse-lab/MDA-podcasts)
+
 ### Description of the files for POS-retrieval
 
 #### postag_counter.py
